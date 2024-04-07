@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        //Obiekt klasy Point
+        Point point = new Point(2.0, 2.0);
+
+        System.outprintln("Współrzędna x: " + point.getX());
+        System.outprintln("Współrzędna y: " + point.getY());
+    }
+}
