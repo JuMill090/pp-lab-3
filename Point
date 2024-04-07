@@ -1,0 +1,32 @@
+public class Point {
+    // Pola (zmienne stanu) klasy
+    private double x;
+    private double y;
+
+    // Konstruktory
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y
+    }
+
+    // Metody zwracająca wartość pola x
+    public double getX() {
+        return x;
+    }
+
+    // Metody zwracająca wartość pola y
+    public double getY() {
+        return y;
+    }
+
+    // Metody ustawiająca wartość pola x
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    // Metody ustawiająca wartość pola y
+    public void setY(double y) {
+        this.y = y;
+    }
+
+}
