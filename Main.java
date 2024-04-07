@@ -1,21 +1,13 @@
-import geometry.Circle;
-import geometry.Point;
+import geometry.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
+        // Tworzymy obiekt klasy Rectangle, zainicjuj go wartościami i wyświetl jego właściwości
+        Rectangle rectangle = new Rectangle(4.0, 5.0);
 
-        //Środek koła
-        Point center = new Point(2.0, 2.0);
-
-        //
-        Circle circle = new Circle(center, 2.0);
-
-        System.out.println("Środek koła: (" + circle.getCenter().getX() + ", " + circle.getCenter().getY() + ")");
-        System.out.println("Promień koła: " + circle.getRadius());
-        System.out.println("Obwód koła: " + circle.calculatePerimeter());
-        System.out.println("Pole powierzchni koła: " + circle.getArea());
-
-    
+        System.out.println("Długość prostokąta: " + rectangle.getLength());
+        System.out.println("Szerokość prostokąta: " + rectangle.getWidth());
+        System.out.println("Pole prostokąta: " + rectangle.calculateArea());
+        System.out.println("Obwód prostokąta: " + rectangle.calculatePerimeter());
     }
-    
 }
